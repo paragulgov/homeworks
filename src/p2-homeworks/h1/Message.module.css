@@ -1,3 +1,57 @@
 .message {
+    background: #DDD8B2;
+    width: 500px;
+    padding: 20px 100px;
+}
 
+.messageWrapper {
+    display: flex;
+}
+
+.avatar {
+    align-self: flex-end;
+}
+
+.avatar img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.text {
+    display: inline-block;
+    border-radius: 10px;
+    background: white;
+    margin-left: 10px;
+    padding: 15px;
+    position: relative;
+
+    max-width: 450px;
+    word-wrap: break-word;
+}
+
+.text .name {
+    color: #8544D6;
+}
+
+.text .messageText {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.text::before {
+    position: absolute;
+    left: -15px;
+    bottom: -0px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid #fff;
+    border-left: 30px solid transparent;
+}
+
+.text .time {
+    position: absolute;
+    color: #A0ACB6;
+    right: 10px;
+    bottom: 5px;
 }
