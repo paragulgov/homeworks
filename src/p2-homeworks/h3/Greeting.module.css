@@ -1,7 +1,39 @@
-.someClass {
-
+.greeting {
+    margin: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 230px;
+    height: 50px;
 }
 
-.error {
-    border: 1px solid red;
+.greetingWrapper {
+    display: flex;
+    margin-top: 10px;
+}
+
+.greetingWrapper input {
+    margin-right: 10px;
+}
+
+.greetingWrapper button {
+    margin-right: 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    background: #40A7E3;
+    cursor: pointer;
+}
+
+.greetingWrapper button:active {
+    background-color: dimgrey;
+}
+
+input.error {
+    border: 3px solid red;
+    outline: none;
+}
+
+input.success {
+    border: 3px solid green;
+    outline: none;
 }
