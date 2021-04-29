@@ -17,7 +17,9 @@
 .burger {
     width: 30px;
     height: 30px;
-    background-color: orange;
+    background: rgb(245,205,114);
+    background: linear-gradient(75deg, rgba(245,205,114,1) 5%, rgba(161,140,23,1) 97%);
+    border-radius: 30px;
 }
 
 .links:hover {
